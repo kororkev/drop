@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background: #c4dff5;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    place-items: center;
+}
+
+.drop {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background: #ece7e7;
+    border-radius: 51% 49% 47% 52%;
+    opacity: 0.7;
+    box-shadow: 9px -9px 20px #ece7e7;
+}
+
+.drop::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #ece7e7;
+    border-radius: 51% 49% 47% 52%;
+    box-shadow: -20px 30px 16px ece7e7 -40px 60x 32px rgb(172, 166, 166) inset -6px 6px 10px white inset 2px 6px 10x white;
+}
